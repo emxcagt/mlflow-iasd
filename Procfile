@@ -1,0 +1,1 @@
+web: mlflow server -h 0.0.0.0 -p $PORT --backend-store-uri ${DATABASE_URL//postgres/postgresql} --default-artifact-root s3://mlflow-iasd/
